@@ -19,11 +19,21 @@
 
 /** ADVANCED JQUERY SELECTORS */
 
-$(
-    function(){
-        // $('div > p').css('border', '3px solid red')
-        // $('div p').css('border', '3px solid red')
-        // $('ul + div').css('border', '3px solid red')
-        $('#para1 ~ p').css('border', '3px solid red')
-    }
-)
+// $(
+//     function(){
+//         // $('div > p').css('border', '3px solid red')
+//         // $('div p').css('border', '3px solid red')
+//         // $('ul + div').css('border', '3px solid red')
+//         // $('#para1 ~ p').css('border', '3px solid red')
+//     }
+// )
+
+/** ATTRIBUTE SELECTORS */
+// $(
+//     function() {
+//         // $('p[class]').css('border', '3px solid red')
+//         // $('p[class=b]').css('border', '3px dashed black')
+//         // $('p[id^=para]').css('border', '3px double red')
+//         // $('p[id^=para][lang*=en-').css('border', '3px dotted navy')
+//     }
+// )
